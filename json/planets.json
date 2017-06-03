@@ -1,0 +1,108 @@
+{
+	"measurements" : [
+		{
+			"distance" : "mi",
+			"size" : "mi",
+			"mass" : "kg",
+			"distance" : "mi",
+			"day" : "h",
+			"year" : "h",
+			"gravity" : "g",
+			"temperature" : "C",
+			"pressure" : "bar"
+		}
+	],
+	"planets": [
+		{
+			"id" : 1,
+			"name" : "Mercury",
+			"size" : 3032,
+			"gravity" : 0.38,
+			"mass" : 328500000000000000000000,
+			"distance" : 35980000,
+			"day" : 1407.504,
+			"year" : 2100,
+			"temperature" : 430,
+			"atmosphere" : [],
+			"pressure" : 0.0013,
+			"moon" : []
+		},
+		{
+			"id" : 2,
+			"name" : "Venus",
+			"size" : 7520.8,
+			"gravity" : 0.91,
+			"mass" : 4867000000000000000000000,
+			"distance" : 67240000,
+			"day" : 2802,
+			"year" : 5390,
+			"temperature" : 467,
+			"atmosphere" : [
+				{ "carbon dioxide" : 96.5 },
+				{ "nitrogen" : 3.5 },
+				{ "sulfur dioxide" : 0 },
+				{ "other" : 0 }
+			],
+			"pressure" : 93,
+			"moon" : []
+		},
+		{
+			"id" : 3,
+			"name" : "Earth",
+			"size" : 7917.5,
+			"gravity" : 1,
+			"mass" : 5972000000000000000000000,
+			"distance" : 92960000,
+			"day" : 23.93,
+			"year" : 8764.171,
+			"temperature" : 15,
+			"atmosphere" : [
+				{ "nitrogen" : 78 },
+				{ "oxygen" : 21 },
+				{ "argon" : 0.9 },
+				{ "other" : 0.1 }
+			],
+			"pressure" : 1,
+			"moon" : [
+				{ 
+					"name" : "Moon",
+					"size" : 2159,
+					"mass" : 73476730900000000000000,
+					"gravity" : 0.16
+				}
+			]
+		},
+		{
+			"id" : 4,
+			"name" : "Mars",
+			"size" : 4212,
+			"gravity" : 0.38,
+			"mass" : 639000000000000000000000,
+			"distance" : 141600000,
+			"day" : 24.66,
+			"year" : 16500,
+			"temperature" : -55,
+			"atmosphere" : [
+				{ "carbon dioxide" : 96 },
+				{ "argon" : 1.9 },
+				{ "nitrogen" : 1.9 },
+				{ "other" : 0.2 }
+			],
+			"pressure" : 0.006,
+			"moon" : [
+				{ 
+					"name" : "Phobos",
+					"size" : 14,
+					"mass" : 10659000000000000,
+					"gravity" : 0
+				},
+				{ 
+					"name" : "Deimos",
+					"size" : 7.8,
+					"mass" : 1476200000000000,
+					"gravity" : 0
+				}
+			]
+		}
+	]
+};
